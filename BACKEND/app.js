@@ -14,7 +14,8 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: ['http://localhost:5173', "http://localhost:5174"],
+    origin: ['http://localhost:5173', "http://localhost:5174", "https://healthy-me-ruby.vercel.app
+"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
